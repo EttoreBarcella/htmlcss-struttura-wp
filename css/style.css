@@ -10,10 +10,24 @@
     margin: auto;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
 .box-rosa{
     background-color: #e579e6;
     margin-top: 15px;
     margin-bottom: 15px;
     width: 100%;
     height: 100px;
+}
+
+.box-giallo{
+    background-color: #e1d67a;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 500px;
 }
