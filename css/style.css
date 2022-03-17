@@ -33,6 +33,10 @@
     min-height: 500px;
 }
 
+.box-blu{
+    background-color: #0186ff;
+}
+
 .box-azzurro{
     background-color: #abcfe7;
     width: 100%;
@@ -44,16 +48,16 @@
     background-color: #abcfe7 ;
     width: 25%;
     min-height: 450px;
-    border-top:15px solid #0186ff ;
-    border-bottom:15px solid #0186ff ;
+    margin-top:15px;
+    margin-bottom:15px;
 }
 
 .col-middle{
     float: left;
     background-color: #abcfe7 ;
-    width: 50%;
+    width: calc(50% - 30px);
     min-height: 450px;
-    border: 15px solid #0186ff;
+    margin: 15px;
 }
 
 .box-viola{
