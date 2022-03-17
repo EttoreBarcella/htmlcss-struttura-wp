@@ -19,21 +19,18 @@
 
 .box-viola, .box-rosa{
     margin-bottom: 15px;
-    width: 100%;
 }
 
 .box-rosa{
     background-color: #e579e6;
     margin-top: 15px;
-
-    height: 100px;
+    min-height: 100px;
 }
 
 .box-giallo{
     background-color: #e1d67a;
     margin-bottom: 15px;
-    width: 100%;
-    height: 500px;
+    min-height: 500px;
 }
 
 .box-azzurro{
@@ -46,7 +43,7 @@
     float: left;
     background-color: #abcfe7 ;
     width: 25%;
-    height: 450px;
+    min-height: 450px;
     border-top:15px solid #0186ff ;
     border-bottom:15px solid #0186ff ;
 }
@@ -55,12 +52,12 @@
     float: left;
     background-color: #abcfe7 ;
     width: 50%;
-    height: 450px;
+    min-height: 450px;
     border: 15px solid #0186ff;
 }
 
 .box-viola{
     background-color: #8801fe;
     margin-top: 10px;
-    height: 50px;
+    min-height: 50px;
 }
